@@ -1,11 +1,11 @@
 {
 	"tokenColors": "./nanami.tmtheme",
 	"colors": {
-		"editor.background": "#333333",
+		"editor.background": "#212121",
 		"editorCursor.foreground": "#00FF00",
 		"editor.foreground": "#C0C0C0",
 		"editorWhitespace.foreground": "#BFB028",
-		"editor.lineHighlightBackground": "#686868",
+		"editor.lineHighlightBackground": "#333333",
 		"editor.selectionBackground": "#000000"
 	},
 	"name": "Nanami"
