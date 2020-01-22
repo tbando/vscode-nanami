@@ -48,7 +48,7 @@
         "sideBarSectionHeader.background": "#808080",
         "sideBarSectionHeader.foreground": "#f8f8f2",
         "sideBarTitle.foreground": "#f8f8f2",
-        "editorGroup.background": "#272822",
+        "editorGroup.emptyBackground": "#272822",
         "editorGroup.dropBackground": "#49483e6f",
         "editorGroupHeader.noTabsBackground": "#333333",
         "editorGroupHeader.tabsBackground": "#333333",
@@ -145,17 +145,6 @@
         "titleBar.activeForeground": "#f8f8f2",
         "titleBar.inactiveBackground": "#333333",
         "titleBar.inactiveForeground": "#808080",
-        "notification.background": "#333333",
-        "notification.foreground": "#f8f8f2",
-        "notification.buttonBackground": "#00CCFF",
-        "notification.buttonHoverBackground": "#333333",
-        "notification.buttonForeground": "#f9f8f5",
-        "notification.infoBackground": "#99CCFF",
-        "notification.infoForeground": "#f9f8f5",
-        "notification.warningBackground": "#FFCC00",
-        "notification.warningForeground": "#f9f8f5",
-        "notification.errorBackground": "#CC3399",
-        "notification.errorForeground": "#f9f8f5",
         "extensionButton.prominentBackground": "#99CC00",
         "extensionButton.prominentForeground": "#f9f8f5",
         "extensionButton.prominentHoverBackground": "#333333",
@@ -424,7 +413,6 @@
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
-                "fontStyle": "normal",
                 "foreground": "#FFCC00"
             }
         },
