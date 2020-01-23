@@ -848,7 +848,8 @@
         {
             "name": "Markdown - Link Anchor",
             "scope": [
-                "constant.other.reference.link.markdown"
+                "constant.other.reference.link.markdown",
+                "markup.underline.link.markdown"
             ],
             "settings": {
                 "foreground": "#808080"
@@ -909,6 +910,15 @@
                 "fontStyle": "bold",
                 "background": "#00000050",
                 "foreground": "#99CCFF"
+            }
+        },
+        {
+            "name": "Markdown - Beginning of list",
+            "scope": [
+                "punctuation.definition.list.begin.markdown"
+            ],
+            "settings": {
+                "foreground": "#00CCFF"
             }
         },
         {
