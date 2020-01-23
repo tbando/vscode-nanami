@@ -134,7 +134,7 @@
         "statusBar.background": "#99CC00",
         "statusBar.debuggingBackground": "#FF9900",
         "statusBar.debuggingForeground": "#f9f8f5",
-        "statusBar.foreground": "#333333",
+        "statusBar.foreground": "#000000",
         "statusBar.noFolderBackground": "#CC99FF",
         "statusBar.noFolderForeground": "#f9f8f5",
         "statusBarItem.activeBackground": "#808080",
@@ -199,14 +199,13 @@
         {
             "name": "Variables, Parameters",
             "scope": [
-                "variable",
+                "variable | variable.parameter",
                 "string constant.other.placeholder",
                 "entity.name.variable.parameter",
                 "entity.name.variable.local",
-                "variable.parameter"
             ],
             "settings": {
-                "foreground": "#CC3399"
+                "foreground": "#99CCFF"
             }
         },
         {
@@ -253,40 +252,7 @@
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#CC99FF"
-            }
-        },
-        {
-            "name": "Keyword Control",
-            "scope": [
-                "keyword.control",
-                "keyword.control.flow",
-                "keyword.control.from",
-                "keyword.control.import",
-                "keyword.control.as"
-            ],
-            "settings": {
-                "foreground": "#CC99FF"
-            }
-        },
-        {
-            "name": "Keyword",
-            "scope": [
-                "keyword.other.using",
-                "keyword.other.namespace",
-                "keyword.other.class",
-                "keyword.other.new",
-                "keyword.other.event",
-                "keyword.other.this",
-                "keyword.other.await",
-                "keyword.other.var",
-                "keyword.other.package",
-                "keyword.other.import",
-                "variable.language.this",
-                "storage.type.ts"
-            ],
-            "settings": {
-                "foreground": "#CC99FF"
+                "foreground": "#FFCC00"
             }
         },
         {
@@ -305,7 +271,7 @@
                 "storage.type.function"
             ],
             "settings": {
-                "foreground": "#00CCFF"
+                "foreground": "#339999"
             }
         },
         {
@@ -352,13 +318,13 @@
             "name": "Function, Special Method",
             "scope": [
                 "entity.name.function",
-                "meta.function-call",
+                "meta.function-call.generic.python",
                 "variable.function",
                 "support.function",
                 "keyword.other.special-method"
             ],
             "settings": {
-                "foreground": "#00CCFF"
+                "foreground": "#99CC00"
             }
         },
         {
@@ -384,7 +350,6 @@
             "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
             "scope": [
                 "constant.numeric",
-                "constant.language",
                 "support.constant",
                 "constant.character",
                 "constant.escape",
@@ -392,7 +357,7 @@
                 "keyword.other"
             ],
             "settings": {
-                "foreground": "#FF9900"
+                "foreground": "#FF99CC"
             }
         },
         {
@@ -434,7 +399,7 @@
                 "storage.modifier.import"
             ],
             "settings": {
-                "foreground": "#99CC00"
+                "foreground": "#339999"
             }
         },
         {
@@ -486,7 +451,7 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#CC3399"
+                "foreground": "#99CCFF"
             }
         },
         {
@@ -621,6 +586,7 @@
                 "foreground": "#FF5370"
             }
         },
+        // JSON
         {
             "name": "JSON String",
             "scope": [
@@ -711,6 +677,7 @@
                 "foreground": "#99CCFF"
             }
         },
+        // Markdown
         {
             "name": "Markdown - Plain",
             "scope": [
@@ -913,6 +880,25 @@
                 "foreground": "#99CC00"
             }
         },
+        // Python
+        {
+            "name": "Python - Single quote",
+            "scope": [
+                "string.quoted.single.python"
+            ],
+            "settings": {
+                "foreground": "#FF9900"
+            }
+        },
+        {
+            "name": "Python - Boolean",
+            "scope": [
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#CC99FF"
+            }
+        },
         {
             "scope": "token.info-token",
             "settings": {
@@ -922,7 +908,7 @@
         {
             "scope": "token.warn-token",
             "settings": {
-                "foreground": "#FFCC00"
+                "foreground": "#CC99FF"
             }
         },
         {
