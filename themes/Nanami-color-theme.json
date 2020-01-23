@@ -598,7 +598,8 @@
                 "*uri*"
             ],
             "settings": {
-                "fontStyle": "underline"
+                "fontStyle": "underline",
+                "foreground": "#808080"
             }
         },
         {
@@ -790,7 +791,7 @@
         {
             "name": "Markup - Underline",
             "scope": [
-                "markup.underline"
+                "markup.underline | url | uri | link"
             ],
             "settings": {
                 "fontStyle": "underline",
