@@ -832,7 +832,7 @@
                 "string.other.link.title.markdown"
             ],
             "settings": {
-                "foreground": "#00CCFF"
+                "foreground": "#FF9900"
             }
         },
         {
@@ -850,7 +850,7 @@
                 "constant.other.reference.link.markdown"
             ],
             "settings": {
-                "foreground": "#FFCC00"
+                "foreground": "#808080"
             }
         },
         {
